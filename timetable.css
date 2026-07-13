@@ -1,0 +1,72 @@
+table,th,tr,td{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.918);
+    border-collapse: collapse;
+    color: white;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    font-weight: bold;
+}
+
+tr{
+    height: 100px;
+}
+
+th,td{
+    text-align: center;
+    padding: 8px;
+    overflow: hidden;    
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+th{
+    background-color: #c10000;
+}
+
+.cells,.comp201,.comp204,.istn212,.math243{
+    text-align: left;
+}
+
+.comp201,.comp204,.istn212,.math243{
+    color:white;
+
+}
+
+.comp201{
+    background-color: #04b4d0 ;
+}
+
+.comp204{
+     background-color: #F25218 ;
+}
+
+.istn212{
+     background-color: #ff00aa;
+}
+
+.math243{
+     background-color: #8D8987 ;
+}
+
+.legend{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 110px;
+}
+
+button{
+    border-radius: 100px;
+    height: 80px;
+    width: 100px;
+    padding-left: 23px;
+    border-style: none;
+    font-weight: bold;
+}
+
+
+
